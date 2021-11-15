@@ -1,0 +1,367 @@
+.App {
+  text-align: center;
+}
+a {
+  text-decoration: none !important;
+}
+
+.form-screen {
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-screen > * {
+  width: 60%;
+  padding: 1.1rem;
+}
+
+.img1 {
+  width: 900px;
+  height: 790px;
+}
+
+.img2 {
+  width: 900px;
+  height: 790px;
+}
+
+.profent {
+  width: 100%;
+  height: 100vh;
+}
+.profc {
+  width: 100%;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: rgb(22, 177, 60) !important;
+}
+
+.Navbar .rl {
+  margin-left: 10px;
+}
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+.fa-2x {
+  font-size: 2em;
+}
+.fa {
+  position: relative;
+  display: table-cell;
+  width: 60px;
+  height: 36px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+.main-menu:hover,
+nav.main-menu.expanded {
+  width: 250px;
+  overflow: visible;
+}
+
+.main-menu {
+  background: #212121;
+  border-right: 1px solid #e5e5e5;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  width: 60px;
+  overflow: hidden;
+  -webkit-transition: width 0.05s linear;
+  transition: width 0.05s linear;
+  -webkit-transform: translateZ(0) scale(1, 1);
+  z-index: 1000;
+}
+
+.main-menu > ul {
+  margin: 7px 0;
+}
+
+.main-menu li {
+  position: relative;
+  display: block;
+  width: 250px;
+}
+
+.main-menu li > a {
+  position: relative;
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 0;
+  color: #999;
+  font-family: arial;
+  font-size: 14px;
+  text-decoration: none;
+  -webkit-transform: translateZ(0) scale(1, 1);
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+.main-menu .nav-icon {
+  position: relative;
+  display: table-cell;
+  width: 60px;
+  height: 36px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+}
+
+.main-menu .nav-text {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  width: 190px;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.main-menu > ul.logout {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.no-touch .scrollable.hover {
+  overflow-y: hidden;
+}
+
+.no-touch .scrollable.hover:hover {
+  overflow-y: auto;
+  overflow: visible;
+}
+
+nav {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+nav ul,
+nav li {
+  outline: 0;
+  margin: 0;
+  padding: 0;
+}
+.main-menu li:hover > a,
+nav.main-menu li.active > a,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus,
+.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,
+.dashboard-page nav.dashboard-menu ul li.active a {
+  color: #fff;
+  background-color: #5fa2db;
+}
+.area {
+  float: left;
+  background: #e2e2e2;
+  width: 100%;
+  height: 100%;
+}
+@font-face {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Titillium WebLight"), local("TitilliumWeb-Light"),
+    url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff)
+      format("woff");
+}
+
+.rl > * {
+  margin-left: 15px;
+}
+
+.logo {
+  width: 90px;
+}
+
+.creer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+}
+.card > * {
+  margin-top: 20px;
+}
+
+.cards-list > * {
+  margin-top: 80px;
+  text-align: left;
+}
+.containerr {
+  background-color: #fff;
+  position: relative;
+  display: grid;
+  width: 80%;
+  margin: 0 auto;
+  grid-template-columns: 300px 600px;
+  border-radius: 5px;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
+}
+
+.containerr img {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px 0 0 5px;
+}
+.containerr .btnn {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  background-color: #fc9400;
+  color: #fff;
+  padding: 22px 45px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.294);
+}
+.containerr .btnn i {
+  margin-left: 20px;
+  font-size: 1.5rem;
+}
+.container__text {
+  padding: 40px 40px 0;
+}
+.container__text h1 {
+  color: #351897;
+  font-weight: 400;
+  text-align: left;
+}
+.container__text .container__text__star span {
+  font-size: 0.8rem;
+  color: #ffa800;
+  margin: -5px 0 20px;
+}
+.container__text p {
+  font-size: 0.9rem;
+}
+.container__text .container__text__timing {
+  display: flex;
+  margin: 20px 0 10px;
+}
+.container__text .container__text__timing .container__text__timing_time {
+  margin-right: 40px;
+}
+.container__text .container__text__timing h2 {
+  margin-bottom: 5px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #818189;
+}
+.container__text .container__text__timing p {
+  color: #351897;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+article {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: rgb(184, 190, 183);
+  color: #fff;
+ 
+}
+
+.modsup {
+  display: flex;
+  justify-content: space-around;
+}
+
+.entlist {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+}
+.entlist > * {
+  margin-top: 20px;
+}
+
+.modsup {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+
+.imgAp {
+  width: 400%;
+}
+
+.btn-connexion > *{
+  
+  margin-right: 20px !important;
+}
+
+.client_logo {
+  width: 4%;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin:0 auto;
+}
+
+.buttons {
+  width: 30%;
+  border: 1px solid gray;
+  padding: 1.2em;
+}
+
+.buttons > * {
+  margin-top: 50px;
+}
+
+.list >*{
+  margin-top: 30px;
+}
+
+.list1 > *{
+  margin-top: 30px;
+}
+
+.rech > *{
+  margin-left: 30px;
+}
